@@ -44,8 +44,8 @@ Authentication flow
 
 
 1. Clone Repo
-git clone https://github.com/your-username/Career_Path_Analyzer.git
-cd Career_Path_Analyzer
+git clone https://github.com/uikeytulsidas/AI_backend.git
+cd backend
 
 2. Backend Setup (Django)
 cd backend
