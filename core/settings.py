@@ -37,7 +37,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','your-app.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','your-app.onrender.com','https://career-path-ai-bcpk.onrender.com']
 CORS_ALLOW_ALL_ORIGINS = True  # for dev only
 
 
