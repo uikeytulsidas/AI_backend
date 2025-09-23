@@ -12,7 +12,7 @@ API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-fl
 API_KEY = os.getenv("GEMINI_API_KEY")
 HEADERS = {"Content-Type": "application/json"}
 MAX_RETRIES = 3
-RETRY_DELAY = 2  # seconds
+RETRY_DELAY = 2  
 
 if not API_KEY:
     raise ValueError("❌ No GEMINI_API_KEY found. Set it in .env or environment variables.")
