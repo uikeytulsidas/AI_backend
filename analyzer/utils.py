@@ -2,13 +2,13 @@ from rest_framework.response import Response
 import requests 
 import json
 import re
-import os
+import os 
 from time import sleep
 from dotenv import load_dotenv
 load_dotenv()
 
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-
+# api key
 API_KEY = os.getenv("GEMINI_API_KEY")
 HEADERS = {"Content-Type": "application/json"}
 MAX_RETRIES = 3
