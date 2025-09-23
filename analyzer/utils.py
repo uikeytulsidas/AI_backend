@@ -31,7 +31,7 @@ def call_gemini(prompt):
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            response = requests.post(API_URL, headers=HEADERS, json=data, params=params, timeout=30)
+            response = requests.post(API_URL, headers=HEADERS, json=data, params=params, timeout=60)
             response.raise_for_status()
 
             result = response.json()
